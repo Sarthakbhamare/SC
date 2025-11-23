@@ -24,7 +24,7 @@ xlabel('Sigmoidal MF, p = (x,[1,4])');
 ylabel('Fuzziness'); 
 ylim([-0.05,1.05]);
 
-% 8. PI MF 
+#8. PI MF 
 x = 0:0.1:10; 
 y = pimf(x,[1,4, 5,7]); 
 plot(x,y); 
@@ -32,7 +32,7 @@ xlabel('PI MF, p = (x,[1,4,5,7])');
 ylabel('Fuzziness');
 ylim([-0.05,1.05]);
 
-% 9. Gaussian MF 
+#9. Gaussian MF 
 x = 0:0.1:10;   
 y = gaussmf(x,[1,5]);
 plot(x,y); 
@@ -40,7 +40,7 @@ xlabel('Gaussian MF, p = (x,[1,5])');
 ylabel('Fuzziness');
 ylim([-0.05,1.05]);
 
-% 10. Generalized bell MF
+# 10. Generalized bell MF
 x = 0:0.1:10; 
 y = gbellmf(x,[1 4 7]); 
 plot(x,y); 
