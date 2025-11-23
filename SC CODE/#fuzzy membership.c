@@ -40,6 +40,16 @@ xlabel('Gaussian MF, p = (x,[1,5])');
 ylabel('Fuzziness');
 ylim([-0.05,1.05]);
 
+
+#% 4. Gaussian 2 MF 
+x = 0:0.1:10; 
+y = gauss2mf(x, [1,4,5,7]); 
+plot(x,y); 
+xlabel('Gaussian 2 MF, p = (x,[1,4,5,7])'); 
+ylabel('Fuzziness'); 
+ylim([-0.05 1.05]); 
+
+
 # 10. Generalized bell MF
 x = 0:0.1:10; 
 y = gbellmf(x,[1 4 7]); 
@@ -47,3 +57,4 @@ plot(x,y);
 xlabel('Bell MF,p = (x,[1 4 7])'); 
 ylabel('Fuzziness'); 
 ylim([-0.05 1.05]);
+
